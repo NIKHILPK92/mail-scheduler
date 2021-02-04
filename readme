@@ -1,1 +1,6 @@
-
+Simple mail scheduler using nodemailer and node-cron npm packages
+  1.Every minute send a scheduled mail
+  2.we can manipulate the time
+  3.The scheduler run Without database  
+  4.we can add user collection further development
+  5.simple mailer is used
