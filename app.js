@@ -18,7 +18,7 @@ let mailOptions = '';
 let userData = process.env.USER_DETAILS //we can use userTable or collection to send data by looping it
     for(let i = 0; i< userData.length; i++){
         mailOptions = {
-            from: process.env.USER_MAIL
+            from: process.env.ADMIN_MAIL
             to: userData[i],
             subject: "Daily schedule",
             text: "sheduled task"
